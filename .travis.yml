@@ -1,0 +1,11 @@
+dist: xenial
+sudo: required
+services:
+  - redis
+
+language: csharp
+mono: none
+dotnet: 2.2.300
+
+script:
+  - dotnet test RedisCounter.Tests/RedisCounter.Tests.csproj
