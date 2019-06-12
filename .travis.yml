@@ -5,8 +5,7 @@ services:
 
 language: csharp
 mono: none
-dotnet: 2.2.107
+dotnet: 2.2.300
 
 script:
   - dotnet test RedisCounter.Tests/RedisCounter.Tests.csproj
-  
