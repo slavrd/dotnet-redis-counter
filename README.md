@@ -1,6 +1,7 @@
 # A simple C# Redis counter
+[![Build Status](https://travis-ci.org/slavrd/cicd-demo.svg?branch=master)](https://travis-ci.org/slavrd/cicd-demo)
 
-A basic C# library for a counter using Redis as a backend. It uses 
+A basic C# library for a counter using Redis as a backend.
 
 ## RedisCounter
 
